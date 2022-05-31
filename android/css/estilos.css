@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Quicksand:wght@300;400;500&display=swap');
+
+body{
+    color: white;
+    background-color: rgb(85, 78, 105);
+}
+
+header{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+main{
+    align-content: flex-start;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+}
+
+div{
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 4px;
+    padding: 1%;
+    margin-bottom: 3%;
+    flex: 0 30%;
+    border: 1px solid white;
+    color: white;
+    background-color: #424242;
+}
+
+h2{
+    padding-top: 1%;
+}
+
+li{
+    padding-bottom: 2%;
+}
+
+.rojo{
+    border: 5px solid red;
+}
+
+.amarillo{
+    border: 5px solid yellow;
+}
+
+.verde{
+    border: 5px solid green;
+}
+
+#respondida{
+    border: none;
+    border-radius: 4px;
+}
+
+#respondida:hover{
+    margin: 0 auto;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    width: 20%;
+}
+
+li:hover a{
+    color:darkcyan;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+#usuarios{
+    text-align: center;
+    padding: 1%;
+    margin: 0 auto;
+}
+
+label{
+    font-family: 'Quicksand', sans-serif;
+}
+
+button{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+#usuario{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 30%;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    padding: 1%;
+    text-align: right;
+}
+
+img{
+    left: 36%;
+    position: relative;
+    margin: 0 auto;
+    width: 30%;
+}
+
+#cabecera{
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 30%;
+    text-align: center;
+    padding: 1%;
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #393812;
+    -webkit-border-radius: 1ex;
+}
